@@ -4,14 +4,17 @@
   "authors": [
     "Brian Hines"
   ],
-  "description": "server for the Raspberry Pi with access to the digital GPIO pins via RESTful JSON and Socket.io",
+  "description": "Server for the Raspberry Pi with access to the digital GPIO pins via RESTful JSON and Socket.io",
   "main": "static/js/app.js",
   "moduleType": [
     "globals"
   ],
   "keywords": [
     "raspberry",
-    "pi"
+    "pi",
+    "gpio",
+    "socket",
+    "rest"
   ],
   "license": "MIT",
   "private": true,
