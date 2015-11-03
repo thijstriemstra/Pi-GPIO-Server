@@ -1,8 +1,9 @@
+import os
 import yaml
 from .gpio import BaseGPIO
 
 
-PINS_YML = './config/pins.yml'
+PINS_YML = os.getenv('PINS_CONFIG', './config/pins.yml')
 
 
 class PinManager(BaseGPIO):
