@@ -49,7 +49,7 @@ coverage.xml
 *.pot
 
 # Bower
-/bower_components
+/pi_gpio/static/bower_components
 
 # Sphinx documentation
 docs/_build/
