@@ -23,5 +23,7 @@ appModule.config( function ( $routeProvider, $locationProvider ) {
             redirectTo: '/pins'
         });
 
-        $locationProvider.html5Mode( true );
+        $locationProvider.html5Mode({
+            enabled: true
+        });
 } );
