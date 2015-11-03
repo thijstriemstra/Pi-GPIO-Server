@@ -48,6 +48,9 @@ coverage.xml
 *.log
 *.pot
 
+# Bower
+/bower_components
+
 # Sphinx documentation
 docs/_build/
 
