@@ -5,3 +5,4 @@ sudo python install/install_system.py
 
 # Python requirements
 sudo pip install -r requirements.txt
+sudo pip install -r requirements-raspberry.txt
